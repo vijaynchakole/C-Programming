@@ -1,0 +1,108 @@
+int palindrome(char*str)
+{
+
+		char*ptr = NULL, *temp = NULL, *fix = NULL ;
+		int iCnt = 0, Max = 0, i = 0, j = 0 ;
+
+
+	while(*str!='\0')
+	{
+
+			if(*str==' ')
+				{
+
+						while(*str==' ')
+							{
+
+									str++ ;
+
+
+								}
+
+
+				}
+					else
+							{
+									ptr = str ;
+										iCnt = 0 ;
+									while(*str!='\0' && *str!=' ')
+										{
+													iCnt ;
+													str++;	
+						
+
+										}
+									temp = str-1 ;
+
+										j=iCnt ;
+									if(*ptr==*temp)
+										{
+													i=0;
+												while(i<=j)
+												{
+
+													if(ptr[i]!=ptr[j]){break ;}
+														i++;
+														j--;
+
+
+												}
+	
+													if(i>j)
+													{
+											
+																if(iCnt>Max)
+													{ 
+																	Max=iCnt ; 
+																		fix = ptr ;
+
+
+															while(*ptr!=' ' && *ptr!='\0')
+																		{
+
+																		printf("%c",*ptr);
+
+																		ptr++ ;
+
+																		}
+
+
+
+
+
+
+
+
+													}					
+
+
+													}
+										i=0;
+											
+											j=0;
+																										
+										}
+
+
+					
+							}
+										
+			
+
+			}
+
+/*
+
+while(*fix!=' ' && *fix!='\0')
+{
+
+printf("%c",*fix);
+
+fix++ ;
+
+}
+*/
+
+return 0 ;
+
+}

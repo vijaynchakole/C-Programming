@@ -1,0 +1,8 @@
+Hari bol, hare krishna. jay SHREERAM.
+providing access to a database or other shared information resource;
+z providing access to a remote file across a network;
+z encapsulating some business logic;
+z providing access to a shared hardware resource (e.g., a printer); or
+z serving web pages.
+Encapsulating a service within a single server is useful for a number of reasons,
+such as the following:

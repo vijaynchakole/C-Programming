@@ -59,8 +59,8 @@ int main()
 
 return 0 ;
 
-}
-*/
+}0 1 2*/
+
 ////////////////?//////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
@@ -75,7 +75,7 @@ int main()
 
 return 0 ;
 
-}//10,11,12*/
+}10,11,12*/
 
 ///////////////////////////////////////////////
 /*
@@ -91,7 +91,7 @@ int main()
 
 return 0 ;
 
-}//105 11 12*/
+}105 11 12*/
 ////////////////////////////////////////////////////////
 /*
 enum demo{i,j,k};
@@ -99,11 +99,11 @@ enum demo{i,j,k};
 int main()
 {
 
- printf("%ld %ld",sizeof(enum demo),sizeof(i));
+ printf("%d %d",sizeof(demo),sizeof(i));
 
 return 0 ;
 
-}//each undeclared indentifier is reported only once  for each function it appears in 
+}each undeclared indentifier is reported only once  for each function it appears in 
 
 */
 ////////////////////////////////////////////////////////
@@ -125,7 +125,8 @@ enum demo{i,j,k};
 
 int main()
 {
- i++;
+ 
+i++;
 
 printf("%d",i);
 
@@ -134,16 +135,15 @@ printf("%d",i);
 return 0;
 
 }//compiled timed error //lvalue required as an incremented operand
-//	*///
+*/
 /////////////////////////////////
-/*
 
-enum demo{i,j,i};
+/*
+enum demo{i,j,k};
 
 int main()
 {
-
-
+ i = 15;
 
 
 printf ("%d",i);
@@ -153,10 +153,10 @@ printf ("%d",i);
 
 
 return 0;
-}//compiled time error//redefinition of i
+}//compiled time error
 
 
-//*///
+*/
 /////////////////////////////////////////////////////////
 /*
 enum demo{i,k,i};
@@ -180,7 +180,7 @@ int main()
 
 return 0;
 }//10 11 12 12
-//*/
+*/
 
 //////////////////////////////////////////////////
 /*
@@ -189,14 +189,12 @@ enum demo{i=10,j,k,l=12}var;
 int main()
 {
    var=i;
-enum demo *p=&var;
+demo *p=&var;
 
-printf("%d\n",*p);//10
-p++ ;
-printf("%d\n",*p);//0
+printf("%d\n",*p);
 return 0;
 }//initialization from incompatible pointer type(compiled time error);
-//*/
+*/
 
 /////////////////////////////////////////////////////////
 /*
@@ -215,7 +213,6 @@ return 0;
 }//12*/
 ///////////////////////////////////
 /*
-//
 int a=11,b=12;
 
 enum demo{i=10,j=b,k,l=12}var;
@@ -227,8 +224,8 @@ int main()
 
 
 return 0;
-}//enumeration value for 'j' is not an integer constant
-//*/
+}enumeration value for 'j' is not an integer constant
+*/
 //////////////////////////////////////////////////////
 /*
 enum demo{i=10,j,k,l=12}var;
@@ -243,8 +240,8 @@ var=l;
 
 
 return 0;
-}//10 13
-//*/
+}10 13
+*/
 
 //////////////////////////////////////////////////////
 /*
@@ -261,7 +258,7 @@ printf("%d %d %d",i,j,k);
 
 
 return 0 ;
-}//compiled error*/
+}compiled error*/
 
 //////////////////////////////////
 /*
@@ -273,7 +270,7 @@ int main()
 printf("%d %d %d\n",i,j,k);
 return 0 ;
 
-}//*/
+}*/
 
 ///////////////////////////////////
 /*
@@ -286,7 +283,7 @@ printf("%d %d %d",i,j,k);
 
 
 return 0;
-}//3 4 97*/
+}3 4 97*/
 /////////////////////////
 /*
 
@@ -307,7 +304,7 @@ printf("%d %d ",obj.i,obj.var);
 
 
 return 0;
-}//20 3 */
+}20 3 */
 //////////////////////////////////////
 /*
  static enum demo{i=2,j,k,l}var1,var2;
@@ -322,19 +319,15 @@ var2=i;
 
 if(var1==var2)
 {
-  printf("Hello\n");
+  printf("Hello");
 
-}
-else
-{
-printf("false\n");
 }
 
 
 return 0;
 
 
-}//0 0 hello */
+}0 0 */
 ///////////////////////////////////////////////
 /*
 enum demo {i=2,j,k,l};
@@ -358,7 +351,7 @@ printf("%d\n",i);
 
 
 return 0;
-}//*/
+}*/
 
 ///////////////////////
 /*
@@ -371,4 +364,4 @@ int main()
 
 printf("%d\n",i);
 return 0 ;
-}//*/
+}*/

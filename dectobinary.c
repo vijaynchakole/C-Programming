@@ -2,7 +2,7 @@
 #include<malloc.h>
 
 
-int dectoBinary(int num);
+void dectoBinary(int num);
 
 int main()
 {
@@ -15,19 +15,18 @@ scanf("%d",&num);
 dectoBinary(num);
 
 
-
 return 0 ;
 
 
 }
 
 
-int dectoBinary(int num)
+void dectoBinary(int num)
 {
 
-int digit = 0,j=1, x=0 ;
+int digit = 0,j=1 ;
 int i = 0;
- char* temp = NULL ;
+ 
 char* ptr = (char*)malloc(100*sizeof(char));
 
 
@@ -39,7 +38,7 @@ char* ptr = (char*)malloc(100*sizeof(char));
 
 		ptr[i++] = digit ;
 
-		printf("%d",digit);
+		//printf("%d",digit);
 		
 		num = num/2 ;
 	
@@ -47,51 +46,17 @@ char* ptr = (char*)malloc(100*sizeof(char));
 	}
 
 ptr = (char*)realloc(ptr,i*sizeof(char));
-temp = (char*)malloc(temp,i*sizeof(char));
 
-for(j = (i-1) ; j>=0 ; j--)
+for(j = i-1 ; j>=0 ; j--)
 {
 
-	//printf("%d",ptr[j]);
-	printf("hello World\n");
-
-	if(ptr[j]==49)
-	{
-
-		temp[x] = 1;
-
-	}
-	else
-			{
-
-				temp[x] = 0;
-		
-	}
-
-
-x++;
-
-	}
-
-
-
-
-printf("\n\n");
-
-for(j = 0 ; j<x ; j++)
-{
-
-//	printf("%d  ",temp[j]);
-
-
-	
+	printf("%d",ptr[j]);
 
 
 }
 
-//convert binary into decimal and add 1 in it
+//printf("  ");
 
-return 0;
 
- 
+
 }

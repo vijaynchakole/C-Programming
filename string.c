@@ -1,133 +1,89 @@
 #include<stdio.h>
 
-
-int substring(char*str,char*second);
-void chkAnagram(char*str,char*second);
-
 int main()
 {
-	char arr[100] = {'\0'} ;
-	char brr[100] = {'\0'} ;
 
+char pstr[100] = {'\0'} ;
 
-	printf("enter string1 \n");
-	scanf("%[^'\n']s",arr);
+char*str=pstr;
 
+scanf("%[^'\n']s",str);
 
-	chkAnagram(arr,"ABCDEF");
-//substring(arr,"ab") ;
+while(*str!='\0')
+{
 
-return 0 ;
+printf("%c",*str);
+
+str++;
 
 }
-/////////////////////////////////////////////////////
+
+
+
+return 0;
+}
 
 /*
-int substring(char*str,char*second)
+/* Read input from STDIN. Print your output to STDOUT*/
+/*
+#include<stdio.h>
+int main(int argc, char *a[])
 {
-
-char*ptr = str ;
-char*temp = second ;
-int iCnt = 0;
-
-
+	//Write code here
+	
+	char str[100] = {'\0'};
+	char*ptr = NULL ;
+	int i = 0,j=0;
+	int flag = 0;
+	
+	scanf("%[^'\n']s",str);
+	ptr=str;
+	
 	while(*str!='\0')
 	{
-
-		if(*str==*second)
-		{
-
-			ptr = str ;
-		
-			temp = second ;
-
-			while(*temp!='\0' && *temp == *str)
-			{
-
-				temp++ ;
-				str++ ;
-
-
-			}
-
-
-				if(*temp=='\0')
-				{
-
-					iCnt++ ;
-			
-				}
-
-		
-			str = ptr ;
-
-
-		}
-
-
-
-		str++ ;
-
-
-
-
+	    j++;
+	    str++ ;
+	    
 	}
-
-
-
-
-
-printf("\n%d\n",iCnt);
-
-
-return 0 ;
-
-
+	
+	str=ptr;
+	
+	
+	while(*str!='\0')
+	{
+	    
+	    if(*str>='0' && *str<='9')
+	        {
+	            i++ ;
+	            
+	        }
+	        
+	        if(*str=='.')
+	        {
+	           flag = 1; 
+	            
+	        }
+	        
+	        str++;
+	    
+	}
+	
+	if(j==i)
+	{
+	    printf("This input is type of integer");
+	    
+	}
+	else if(j==i && flag==1)
+	{
+	    printf("This input is type of float");
+	    
+	}
+	else
+	{
+	    printf("This input is type of string");
+	    
+	}
+	
+	return 0;
 }
 */
-/////////////////////////////////////////////////////
-
-void chkAnagram(char*str, char*second)
-{
-
-	int i = 0 ;
-	char arr[26] = {'\0'};
-
-
-	while(*str!='\0')
-	{
-	
-		arr[*str - 'A']++;
-		str++;
-
-
-	}
-
-	while(*second!='\0')
-	{
-
-		arr[*second - 'A' ]-- ;
-		second++;
-
-
-	}
-
-
-
-	for(i = 0 ; i<26 ; i++)
-		{
-			if(arr[i]!=0)
-				break ;
-
-		}
-
-	
-	if(i==26)
-		printf("it is anagram\n");
-	else
-		printf("NOT anagram\n");
-
-
-
-
-}

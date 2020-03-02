@@ -1,0 +1,1403 @@
+#include<stdio.h>
+/*
+//basic logic for problem number 31
+int main()
+{
+
+int row = 4 ;
+
+int i=0,j=0;
+
+
+
+for(i=1;i<=row;i++)
+{
+	for(j=1;j<=row;j++)
+  {
+		if((i+j)>row)
+		{
+
+				if(j==row)
+					{
+
+						printf("*");
+
+					}
+					else
+							{
+
+									printf("* ");
+
+							}
+
+		}
+			else
+					{
+							printf("  ");
+
+					}
+
+	}
+
+printf("\n");
+
+if(i==row)
+{
+
+for(i=1;i<row;i++)
+{
+	for(j=1;j<=row;j++)
+	{
+
+			if(j>i)
+				{
+
+						if(j==row)
+							{
+
+								printf("*");
+
+							}
+								else
+										{
+
+											printf("* ");
+
+										}
+
+
+				}
+			else
+			{
+
+				printf("  ");
+
+			}
+
+	}
+
+printf("\n");
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+return 0;
+}
+*/
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+problem number - 28
+
+int main()
+{
+
+int row = 4, num=3 ;
+
+int i=0,j=0;
+
+
+
+for(i=1;i<=row;i++)
+{
+	for(j=1;j<=row;j++)
+  {
+		if((i+j)>row)
+		{
+
+				if(j==row)
+					{
+
+						printf("%d",num);
+
+					}
+					else
+							{
+
+									printf("%d ",num);
+									num--;
+
+							}
+
+		}
+			else
+					{
+							printf("  ");
+
+					}
+
+	}
+
+printf("\n");
+num=3;
+
+if(i==row)
+{
+
+for(i=1;i<row;i++)
+{
+	num=3;
+	for(j=1;j<=row;j++)
+	{
+
+			if(j>i)
+				{
+
+						if(j==row)
+							{
+
+								printf("%d",num);
+
+							}
+								else
+										{
+
+											printf("%d ",num);
+											num--;
+
+										}
+
+
+				}
+			else
+			{
+
+				printf("  ");
+
+			}
+
+	}
+
+printf("\n");
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+return 0;
+}
+*/
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+#include<stdio.h>
+/*
+// problem number - 29
+int main()
+{
+
+int row = 6, num=row-1,temp=row ;
+
+int i=0,j=0;
+
+
+
+for(i=1;i<=row;i++)
+{
+
+temp--;
+num=temp;
+	for(j=1;j<=row;j++)
+  {
+		if((i+j)>row)
+		{
+
+				if(j==row)
+					{
+
+						printf("%d",num);
+
+					}
+					else
+							{
+
+									printf("%d ",num);
+									num++;
+
+							}
+
+		}
+			else
+					{
+							printf("  ");
+
+					}
+
+	}
+
+printf("\n");
+num--;
+
+if(i==row)
+{
+ temp=0 ;
+for(i=1;i<row;i++)
+{
+	temp++ ;
+	num=temp ;
+	for(j=1;j<=row;j++)
+	{
+
+			if(j>i)
+				{
+
+						if(j==row)
+							{
+
+								printf("%d",num);
+
+							}
+								else
+										{
+
+											printf("%d ",num);
+											num++;
+
+										}
+
+
+				}
+			else
+			{
+
+				printf("  ");
+
+			}
+
+	}
+
+printf("\n");
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+return 0;
+}
+*/
+/////////////////////////////////////////////////////////////////////////
+/*
+//problem number-30
+
+
+#include<stdio.h>
+int main()
+{
+
+int row = 10, num=row-1,temp=row ;
+
+int i=0,j=0;
+
+
+
+for(i=1;i<=row;i++)
+{
+
+temp--;
+num=temp;
+	for(j=1;j<=row;j++)
+  {
+		if((i+j)>row)
+		{
+
+				if(j==row)
+					{
+
+						printf("%c",65+num);
+
+					}
+					else
+							{
+
+									printf("%c ",65+num);
+									num++;
+
+							}
+
+		}
+			else
+					{
+							printf("  ");
+
+					}
+
+	}
+
+printf("\n");
+num--;
+
+if(i==row)
+{
+ temp=0 ;
+for(i=1;i<row;i++)
+{
+	temp++ ;
+	num=temp ;
+	for(j=1;j<=row;j++)
+	{
+
+			if(j>i)
+				{
+
+						if(j==row)
+							{
+
+								printf("%c",65+num);
+
+							}
+								else
+										{
+
+											printf("%c ",65+num);
+											num++;
+
+										}
+
+
+				}
+			else
+			{
+
+				printf("  ");
+
+			}
+
+	}
+
+printf("\n");
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+return 0;
+}
+
+
+*/
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+// problem number - 31
+
+
+#include<stdio.h>
+int main()
+{
+
+int row = 4, num=row-1,temp=row ;
+
+int i=0,j=0;
+
+
+
+for(i=1;i<=row;i++)
+{
+
+num=row-1 ;
+	for(j=1;j<=row;j++)
+  {
+		if((i+j)>row)
+		{
+
+				if(j==row)
+					{
+
+						printf("%c",65+num);
+
+					}
+					else
+							{
+
+									printf("%c ",65+num);
+									num--;
+
+							}
+
+		}
+			else
+					{
+							printf("  ");
+
+					}
+
+	}
+
+printf("\n");
+
+
+if(i==row)
+{
+
+for(i=1;i<row;i++)
+{
+	num=row-1 ;
+	for(j=1;j<=row;j++)
+	{
+
+			if(j>i)
+				{
+
+						if(j==row)
+							{
+
+								printf("%c",65+num);
+
+							}
+								else
+										{
+
+											printf("%c ",65+num);
+											num--;
+
+										}
+
+
+				}
+			else
+			{
+
+				printf("  ");
+
+			}
+
+	}
+
+printf("\n");
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+return 0;
+}
+
+
+
+*/
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//different type pattern
+
+/*
+//Basic logic of problem number 22
+
+
+int main()
+{
+
+int row=4 ;
+int i=0,j=0;
+
+
+for(i=1;i<=row;i++)
+{
+	for(j=1;j<=i;j++)
+		{
+				if(i>=j)
+					{
+						
+						if(i==j)
+						{
+							printf("*");						
+						}
+							else
+								{
+									printf("* ");
+
+								}
+							
+
+					}
+					else
+							{
+
+									printf("$");
+
+							}
+
+
+		}
+
+printf("\n");
+
+
+if(i==row)
+{
+	
+		for(i=1;i<row;i++)
+		{
+			for(j=1;j<=(row-i);j++)
+				{
+							if((i+j)<=row)
+								{
+
+									if((i+j)==row)
+										{
+
+											printf("*");
+
+										}
+									else
+											{
+
+														printf("* ");
+	
+											}
+								
+							
+								}
+									else
+											{
+
+													printf("$");
+	
+
+											}
+
+
+				}
+
+printf("\n");
+			
+
+		}
+	
+
+}//big if
+
+
+}
+
+
+return 0 ;
+}
+
+*/
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+// problem number -23
+
+int main()
+{
+
+int row = 4, num=row-1 ;
+
+int i=0,j=0;
+
+
+
+for(i=1;i<=row;i++)
+{
+	for(j=1;j<=i;j++)
+  {
+		if(i>=j)
+		{
+
+				if(i==j)
+					{
+
+						printf("%d",num);
+
+					}
+					else
+							{
+
+									printf("%d ",num);
+									num--;
+
+							}
+
+		}
+			else
+					{
+							printf("$");
+
+					}
+
+	}
+
+printf("\n");
+ num=row-1;
+
+if(i==row)
+{
+
+for(i=1;i<row;i++)
+{
+	 num=row-1;
+	for(j=1;j<=(row-i);j++)
+	{
+
+		if((i+j)<=row)
+				{
+
+						if((i+j)==row)
+							{
+
+								printf("%d",num);
+
+							}
+								else
+										{
+
+											printf("%d ",num);
+											num--;
+
+										}
+
+
+				}
+			else
+			{
+
+				printf("$");
+
+			}
+
+	}
+
+printf("\n");
+
+
+}
+
+}
+
+}
+
+
+return 0;
+}
+
+*/
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+//problem number-24
+
+int main()
+{
+
+int row = 4, num=row-1,temp=row ;
+
+int i=0,j=0;
+
+
+
+for(i=1;i<=row;i++)
+{
+
+temp--;
+num=temp;
+	for(j=1;j<=i;j++)
+  {
+		if(i>=j)
+		{
+
+				if(i==j)
+					{
+
+						printf("%d",num);
+
+					}
+					else
+							{
+
+									printf("%d ",num);
+									num++;
+
+							}
+
+		}
+			else
+					{
+							printf("$");
+
+					}
+
+	}
+
+printf("\n");
+num--;
+
+if(i==row)
+{
+ temp=0 ;
+for(i=1;i<row;i++)
+{
+	temp++ ;
+	num=temp ;
+	for(j=1;j<=(row-i);j++)
+	{
+
+			if((i+j)<=row)
+				{
+
+						if((i+j)==row)
+							{
+
+								printf("%d",num);
+
+							}
+								else
+										{
+
+											printf("%d ",num);
+											num++;
+
+										}
+
+
+				}
+			else
+			{
+
+				printf("$");
+
+			}
+
+	}
+
+printf("\n");
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+return 0;
+}
+
+
+*/
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+
+//problem number - 26
+
+int main()
+{
+
+int row = 4, num=row-1,temp=row ;
+
+int i=0,j=0;
+
+
+
+for(i=1;i<=row;i++)
+{
+
+temp--;
+num=temp;
+	for(j=1;j<=i;j++)
+  {
+		if(i>=j)
+		{
+
+			if(i==j)
+					{
+
+						printf("%c",65+num);
+
+					}
+					else
+							{
+
+									printf("%c ",65+num);
+									num++;
+
+							}
+
+		}
+			else
+					{
+							printf("$");
+
+					}
+
+	}
+
+printf("\n");
+num--;
+
+if(i==row)
+{
+ temp=0 ;
+for(i=1;i<row;i++)
+{
+	temp++ ;
+	num=temp ;
+	for(j=1;j<=(row-i);j++)
+	{
+
+			if((i+j)<=row)
+				{
+
+						if((i+j)==row)
+							{
+
+								printf("%c",65+num);
+
+							}
+								else
+										{
+
+											printf("%c ",65+num);
+											num++;
+
+										}
+
+
+				}
+			else
+			{
+
+				printf("$");
+
+			}
+
+	}
+
+printf("\n");
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+return 0;
+}
+*/
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+//problem number-25
+
+int main()
+{
+
+int row = 4, num=row-1,temp=row ;
+
+int i=0,j=0;
+
+
+
+for(i=1;i<=row;i++)
+{
+
+num=row-1 ;
+	for(j=1;j<=i;j++)
+  {
+		if(i>=j)
+		{
+
+				if(i==j)
+					{
+
+						printf("%c",65+num);
+
+					}
+					else
+							{
+
+									printf("%c ",65+num);
+									num--;
+
+							}
+
+		}
+			else
+					{
+							printf("$");
+
+					}
+
+	}
+
+printf("\n");
+
+
+if(i==row)
+{
+
+for(i=1;i<row;i++)
+{
+	num=row-1 ;
+	for(j=1;j<=(row-i);j++)
+	{
+
+			if((i+j)<=row)
+				{
+
+						if((i+j)==row)
+							{
+
+								printf("%c",65+num);
+
+							}
+								else
+										{
+
+											printf("%c ",65+num);
+											num--;
+
+										}
+
+
+				}
+			else
+			{
+
+				printf("$");
+
+			}
+
+	}
+
+printf("\n");
+
+
+}
+
+
+
+}
+
+
+
+}
+
+
+return 0;
+}
+
+
+*/
+
+//////////////////////////////////////////////////////////////////////////////////
+
+/*
+
+//Basic logic of problem number - 10
+
+int main()
+{
+
+int row=5;
+int i=0,j=0;
+
+
+for(i=1;i<=row;i++)
+{
+	for(j=1;j<(row+i);j++)
+		{
+				if((i+j)>row)
+					{
+								if((j==(row+i-1)))
+									{
+											printf("*");
+
+									}
+									else
+											{
+
+													printf("* ");
+
+												}
+
+
+					}
+						else
+								{
+
+											printf("  ");
+	
+
+								}
+
+
+		}
+
+
+
+printf("\n");
+}
+
+
+
+
+
+return 0;
+}
+
+*/
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+//problem number-11
+
+
+
+int main()
+{
+
+int row=5;
+int i=0,j=0;
+
+
+for(i=1;i<=row;i++)
+{
+	for(j=1;j<(row+i);j++)
+		{
+				if((i+j)>row)
+					{
+								if((j==(row+i-1)))
+									{
+											printf("%c",64+i);
+
+									}
+									else
+											{
+
+													printf("%c ",64+i);
+
+												}
+
+
+					}
+						else
+								{
+
+											printf("  ");
+	
+
+								}
+
+
+		}
+
+
+
+printf("\n");
+}
+
+
+
+
+
+return 0;
+}
+
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+//problem number-12
+
+
+int main()
+{
+
+int row=5,num=1;
+int i=0,j=0;
+
+
+for(i=1;i<=row;i++)
+{
+	for(j=1;j<(row+i);j++)
+		{
+				if((i+j)>row)
+					{
+								if((j==(row+i-1)))
+									{
+											printf("%d",num);
+
+									}
+									else
+											{
+
+													printf("%d ",num);
+													num++;
+
+												}
+
+
+					}
+						else
+								{
+
+											printf("  ");
+	
+
+								}
+
+
+		}
+
+
+num=1;
+printf("\n");
+}
+
+
+
+
+
+return 0;
+}
+
+*/
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+//problem number-13
+
+
+int main()
+{
+
+int row=5;
+char ch = 'A', tempc = 'A' ;
+int i=0,j=0;
+
+
+for(i=1;i<=row;i++)
+{
+	for(j=1;j<(row+i);j++)
+		{
+				if((i+j)>row)
+					{
+								if((j==(row+i-1)))
+									{
+											printf("%c",ch);
+
+									}
+									else
+											{
+
+													printf("%c ",ch);
+													ch--;
+
+												}
+
+
+					}
+						else
+								{
+
+											printf("  ");
+	
+
+								}
+
+
+		}
+
+tempc = tempc+2 ;
+ch = tempc ;
+
+
+printf("\n");
+}
+
+
+
+
+
+return 0;
+}
+
+*/
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+//problem number-14
+
+
+
+int main()
+{
+
+int row=5;
+char ch = 'A', tempc = 'A' ;
+int i=0,j=0;
+
+
+for(i=1;i<=row;i++)
+{
+	for(j=1;j<(row+i);j++)
+		{
+				if((i+j)>row)
+					{
+								if((j==(row+i-1)))
+									{
+											printf("%c",ch);
+
+									}
+									else if(j<row)
+											{
+
+													printf("%c ",ch);
+													ch--;
+
+												}
+												else
+														{
+
+																printf("%c ",ch);
+																ch++;
+
+															}
+
+
+					}
+						else
+								{
+
+											printf("  ");
+	
+
+								}
+
+
+		}
+
+tempc = tempc+1 ;
+ch = tempc ;
+
+
+printf("\n");
+}
+
+
+
+
+
+return 0;
+}
+
+
+*/
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+/*
+//problem number-17
+
+int main()
+{
+
+int row=5,num=1;
+
+int i=0,j=0;
+
+
+for(i=1;i<=row;i++)
+{
+	for(j=1;j<(row+i);j++)
+		{
+				if((i+j)>row)
+					{
+								if((j==(row+i-1)))
+									{
+											printf("%d",num);
+
+									}
+									   else
+													{
+
+																printf("%d ",num);
+																
+
+															}
+														
+
+
+					}
+						else
+								{
+
+											printf("  ");
+	
+
+								}
+
+
+		}
+
+num=num+2 ;
+
+
+printf("\n");
+}
+
+
+
+
+
+return 0;
+}
+
+
+*/

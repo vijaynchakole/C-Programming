@@ -1,0 +1,71 @@
+Hi Team,
+
+I have  done three major projects and one of them is research based project.
+1) Virtual file system
+2)Data Structures Shared Library Development
+3) File wrapper class
+
+1) Virtual file system -:
+its a research based project which is used to understand the internal concept of file system .
+For this project I have used pure C programming language .
+In this project I have refers  Unix file system (UFS).
+In this project I try to provide every functionality which is available in existing file system.
+
+**************************************************************************************************
+2)Data Structures Shared Library Development -:
+Library is considered as a program which contains multiple functions in it which can be used by other program.
+If we designed library then while application development we can reused library whenever needed.
+There are two types of executable in every operating system
+ *self-execuable file
+*dependeable executable file
+dependeable executable file considered as .dll in Windows and .so in Linux.
+In this project, I have provided all LinkedList functionality.
+for example,
+InsertFirst( ), InsertLast( ), InsertAtPosition( ), DeleteFirst( ), DeleteLast( ), DeleteAtPosition( ), SearchNode( ),DisplayNodes( ), ReverseLL( ) and many more.
+
+ **************************************************************************************************
+
+3) File wrapper class -:
+This project is considered as library development project.
+ We can use this project into other software development task.
+ For this project I have used C++ as a programming language.
+ In this wrapper class I have provided all the functionality which requirement  
+ for  file handling operation.
+
+
+currently I am working on project which is use concept of multithreading.
+ In this project I am using multithreading concept for searching file from different directoties.
+
+**************************************************************************************************
+I have good hands on programming.
+I am passionate programmer.
+
+ I have attached my CV.
+kindly refer attached file.
+
+Regards,
+Vijay C
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

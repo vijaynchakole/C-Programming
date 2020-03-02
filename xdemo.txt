@@ -1,0 +1,115 @@
+						    
+
+                                                                             RESUME                 
+
+
+      		Vijay Narsing Chakole                                                                vijaychakole23@gmail.com
+      	Shreenagar society, house no.911                                
+            sr.no. 37/4, Dhanakawadi, Pune-43                                          Contact (Mob.):+91 8308534844/
+                                                                                                                                       +91 8446822504
+                                                                                                                   
+          
+
+
+  Objective :	
+
+To work with an organization where culture of freedom & working for initiative is ensured, facilitating my contribution through thoughts and action to the company’s vision  &  thus  achieve  self  development  by  playing  significant  role  in  building organization.
+
+
+   Educational Qualification :	
+
+Exam
+University/Board
+Grade/Mark
+B.Sc(Physics)
+Pune University
+First class (70%)
+H.S.C.
+Maharashtra
+Second class (50%)
+S.S.C
+Maharashtra
+First class (70%)
+
+
+
+
+   Project Work :	
+
+Data Structures Shared Library Development 
+     
+       Library is considered as a program which contains multiple functions which can be     
+       used  by  other program. In case of library there is no entry point function in the  
+       program. 
+       If we design library then while application development we can use library every time 
+       whenever needed.
+
+Virtual File System
+ 
+         It  is a research based project which is used to understand  the internal concept of file 
+        system .
+        Our project is execute in RAM  & provide all the operations which are required for 
+        the file system.
+   
+   
+
+Custom File Wrapper
+        
+       This project is consired as library development project, we can use this into other            
+       software development task.
+      For this project we are using C++ as a programming language.
+      This class which is development as wrapper class can be  used in other project for    
+     further development.
+     In this wrapper class we have provide all the functionality which requirement for the  
+     file  handling operations.
+
+
+   Technical Skills :	
+Procedural language :       C  programming language
+Object-Oriented language :  C++
+Virtual machine based language  : JAVA
+Scripting language : PHP
+Database language : SQL
+Operating system : Linux, Windows NT
+
+
+    Personal Qualities:	
+Strong and analytical and people management skills.
+Analysis and problem solving/Creativity.
+Passion for constant improvement.
+Ability to take sound decision.
+
+
+
+   Area of Interest: 	
+
+Software Developer
+
+   Hobbies: 	
+Playing Soccer
+Playing Chess
+
+   Personal Profile: 	  	
+
+     Name :                   Vijay Narsing Chakole
+
+    Address :                Shreenagar society,house no.911,Sr. no.37/4,
+                                    Dhanakawadi,Pune-43
+ 
+   Date of birth : -          23rd Oct 1992
+
+  Gender : -                Male
+
+  Marital Status :      - Single 
+
+ Language known : - English, Marathi, Hindi.
+
+
+  Declaration:	
+
+    I hereby declare that the information furnished above is true to the best of my 
+   knowledge
+
+
+ Place : Pune
+Date:                                                                          (Vijay Narsing Chakole)
